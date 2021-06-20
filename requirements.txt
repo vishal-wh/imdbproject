@@ -1,0 +1,9 @@
+Django==3.2.4
+django-filter==2.4.0
+django-rest-swagger==2.2.0
+djangorestframework==3.12.4
+requests==2.25.1
+whitenoise
+gunicorn
+dj-database-url
+psycopg2
