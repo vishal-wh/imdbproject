@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-ppezki@zdy*ore(+d@s6lc!)%se)r^09+w*g-kd%3$418w32$c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['imdb-demo-project.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['taskimdb.herokuapp.com','127.0.0.1']
 
 
 # Application definition
