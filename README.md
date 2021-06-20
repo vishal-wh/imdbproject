@@ -16,7 +16,7 @@ You must have python 3.0 or higher and pip installed
 ### Installation
 1. Clone the repo
    ```sh
-   git clone https://github.com/Howsly/tommbo.git
+   git clone https://github.com/vishal-wh/imdbproject.git
    ```
 2. Move to project folder
    ```sh
@@ -53,7 +53,7 @@ You must have python 3.0 or higher and pip installed
    For normal user, who is not superuser, can only view data,
    and have access to only Get method
    ```
-   https://imdb-demo-project.herokuapp.com/docs/
+   https://taskimdb.herokuapp.com/docs/
    user:imdb_user
    password:api@imdb21
    ```
@@ -61,9 +61,11 @@ You must have python 3.0 or higher and pip installed
 10. Access this web app online
    ```
    Swagger Documentation:
-   https://imdb-demo-project.herokuapp.com/docs
+   https://taskimdb.herokuapp.com/docs
    Djano admin:
-   https://imdb-demo-project.herokuapp.com/admin
+   https://taskimdb.herokuapp.com/admin
+   DRF:
+   https://taskimdb.herokuapp.com/
    ```
 11. Created a command load_initial_data to load
     information of movies from json file. 
@@ -74,7 +76,18 @@ You must have python 3.0 or higher and pip installed
    ```
 12. Movie data can be added manually through django admin or API 
     endpoints
-
+13. Filter and search for movie is implimented by movie attribute
+    like director name, movie name. imdb score, popularity
+    and also ny genre.
+    For example:
+    ```
+    https://taskimdb.herokuapp.com/movie/?search=Family
+    ```
+    It will give list of movie whose genre is family
+    ```
+    https://taskimdb.herokuapp.com/movie/?search=Robert%20Zemeckis
+    ```
+    It will give list of all movie directed by Robert Zemeckis
 ## Authors
 
 * **Vishal** - *Initial work*
